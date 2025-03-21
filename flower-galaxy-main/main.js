@@ -1,5 +1,5 @@
-import './style.css'
-import * as THREE from 'three'
+import './style.css';
+import * as THREE from 'three';
 import { addBoilerPlateMesh, addStandardMesh, addBackground, addGlassKnot, addMatCap} from './addMeshes'
 import { addLight } from './addLights'
 import Model from './Model'
