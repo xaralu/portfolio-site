@@ -1,0 +1,56 @@
+<!-- General Information -->
+<!-- 
+    - time var
+    - peak times vars 
+    - play button
+    that was like the loading screen while you enter your imformation. 
+
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>___doll face__ _</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./body.css" title="Style">
+        <link rel="stylesheet" type="text/css" href="./input.css" title="Style">
+        <link rel="stylesheet" type="text/css" href="./style.css" title="Style">
+    </head>
+
+    <body>
+        <div id="body" style="width: 200px;">
+            <img src="head.png" class="body" id="headImg">
+            <img src="torso.png" class="body" id="torsoImg">
+            <!-- <img src="hair.png" class="body" id="hairImg"> -->
+            <img src="leftarm.png" class="body" id="leftarmImg">
+            <img src="leftleg.png" class="body" id="leftlegImg">
+            <img src="rightarm.png" class="body" id="rightarmImg">
+            <img src="rightleg.png" class="body" id="rightlegImg">
+        </div>
+        <!-- <img src="extrahand.png" class="extraHandImg"> -->
+
+        <div id="input">
+            <p>inputs_folder___ _ </p>
+            <form id="folder">
+                
+                <input type="text" id="bpm" name="bpm" maxlength="3" value="enter song bpm">
+                
+                <select name="moreStamps" id="moreStamps">
+                    <option value="1">1 timestamp</option>
+                    <option value="2">2 timestamps</option>
+                    <option value="3">3 timestamps (big and greedy)</option>
+                </select>
+                <div id="timestampFields">
+                    <input type="text" id="timestamps" class="timestamps" name="timestamps" maxlength="5" value="best timestamp: (00:00)">
+                </div>
+
+            </form>
+            <button id="submitFolder">[submit]</button>
+        </div>
+    </body>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./bpm.js"></script>
+    <script type="module" src="./bodypostition.js"></script>
+
+</html>
