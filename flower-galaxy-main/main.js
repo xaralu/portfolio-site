@@ -86,13 +86,13 @@ function models() {
 
 	const Stalk = new Model({
 		name: 'stalk',
-		url: '/stalk.glb',
+		url: '../public/stalk.glb',
 		scene: scene,
 		meshes: meshes,
 		scale: new THREE.Vector3(1, 1, 1),
 		position: new THREE.Vector3(0, -0.8, 3),
 		replace: true,
-		replaceURL: '/green4.png',
+		replaceURL: '../public/green4.png',
 		//animationState: true,
 		//mixers: mixers,
 	})
@@ -100,13 +100,13 @@ function models() {
 
 	const Bulbs = new Model({
 		name: 'bulbs',
-		url: '/bulbs.glb',
+		url: '../public/bulbs.glb',
 		scene: scene,
 		meshes: meshes,
 		scale: new THREE.Vector3(1, 1, 1),
 		position: new THREE.Vector3(0, -0.8, 3),
 		replace: true,
-		replaceURL: '/pink.jpeg',
+		replaceURL: '../public/pink.jpeg',
 		//animationState: true,
 		//mixers: mixers,
 	})
@@ -114,13 +114,13 @@ function models() {
 
 	const BottomPetals = new Model({
 		name: 'bottomPetals',
-		url: '/new-bottom-petals.glb',
+		url: '../public/new-bottom-petals.glb',
 		scene: scene,
 		meshes: meshes,
 		scale: new THREE.Vector3(1, 1, 1),
 		position: new THREE.Vector3(0, -0.8, 3),
 		replace: true,
-		replaceURL: '/planet.jpg',
+		replaceURL: '../public/planet.jpg',
 		//animationState: true,
 		//mixers: mixers,
 	})
@@ -128,13 +128,13 @@ function models() {
 
 	const TopPetals = new Model({
 		name: 'topPetal',
-		url: '/new-top-petals.glb',
+		url: '../public/new-top-petals.glb',
 		scene: scene,
 		meshes: meshes,
 		scale: new THREE.Vector3(1, 1, 1),
 		position: new THREE.Vector3(0, -0.8, 3),
 		replace: true,
-		replaceURL: '/planet.jpg',
+		replaceURL: '../public/planet.jpg',
 		//animationState: true,
 		//mixers: mixers,
 	})
@@ -142,13 +142,13 @@ function models() {
 
 	const LongLeaves = new Model({
 		name: 'longLeaves',
-		url: '/long-leaves.glb',
+		url: '../public/long-leaves.glb',
 		scene: scene,
 		meshes: meshes,
 		scale: new THREE.Vector3(1, 1, 1),
 		position: new THREE.Vector3(0, -0.8, 3),
 		replace: true,
-		replaceURL: '/boing.png',
+		replaceURL: '../public/boing.png',
 		//animationState: true,
 		//mixers: mixers,
 	})
@@ -156,13 +156,13 @@ function models() {
 
 	const Pollen = new Model({
 		name: 'pollen',
-		url: '/pollen.glb',
+		url: '../public/pollen.glb',
 		scene: scene,
 		meshes: meshes,
 		scale: new THREE.Vector3(1, 1, 1),
 		position: new THREE.Vector3(0, -0.8, 3),
 		replace: true,
-		replaceURL: '/yellow.png',
+		replaceURL: '../public/yellow.png',
 		//animationState: true,
 		//mixers: mixers,
 	})
@@ -170,13 +170,13 @@ function models() {
 
 	const TopThing = new Model({
 		name: 'topThing',
-		url: '/top-thing.glb',
+		url: '../public/top-thing.glb',
 		scene: scene,
 		meshes: meshes,
 		scale: new THREE.Vector3(1, 1, 1),
 		position: new THREE.Vector3(0, -0.8, 3),
 		replace: true,
-		replaceURL: '/pearl.jpg',
+		replaceURL: '../public/pearl.jpg',
 		//animationState: true,
 		//mixers: mixers,
 	})
@@ -184,13 +184,13 @@ function models() {
 
 	const BottomLeaves = new Model({
 		name: 'bottomLeaves',
-		url: '/bottom-leaves.glb',
+		url: '../public/bottom-leaves.glb',
 		scene: scene,
 		meshes: meshes,
 		scale: new THREE.Vector3(1, 1, 1),
 		position: new THREE.Vector3(0, -0.8, 3),
 		replace: true,
-		replaceURL: '/biiing.jpg',
+		replaceURL: '../public/biiing.jpg',
 		//animationState: true,
 		//mixers: mixers,
 	})
@@ -199,13 +199,13 @@ function models() {
 
 	const TopLeaves = new Model({
 		name: 'topLeaves',
-		url: '/top-leaves.glb',
+		url: '../public/top-leaves.glb',
 		scene: scene,
 		meshes: meshes,
 		scale: new THREE.Vector3(1, 1, 1),
 		position: new THREE.Vector3(0, -0.8, 3),
 		replace: true,
-		replaceURL: '/bing.jpg',
+		replaceURL: '../public/bing.jpg',
 		//animationState: true,
 		//mixers: mixers,
 	})
