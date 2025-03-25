@@ -71,7 +71,8 @@ function init() {
 function models() {
 	const Bubbles = new Model({
 		name: 'bubbles',
-		url: '/bubbles.glb',
+		// url: '/bubbles.glb',
+		url: '../public/bubbles.glb',
 		scene: scene,
 		meshes: meshes,
 		scale: new THREE.Vector3(1, 2.5, 1),
