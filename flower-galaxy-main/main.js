@@ -72,7 +72,7 @@ function init() {
 function models() {
 	const Computer = new Model({
 		name: 'computer',
-		url: '/test.glb',
+		url: './test.glb',
 		scene: scene,
 		meshes: meshes,
 		scale: new THREE.Vector3(1, 2.5, 1),
