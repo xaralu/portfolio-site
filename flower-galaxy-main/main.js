@@ -40,7 +40,7 @@ function init() {
 	meshes.side4 = addSides(4);
 	meshes.side4 = addSides(5);
 
-	console.log(addSides(1));
+	//console.log(addSides(1));
 
 
 	//lights
