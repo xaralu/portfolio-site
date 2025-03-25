@@ -78,7 +78,7 @@ function models() {
 		scale: new THREE.Vector3(1, 2.5, 1),
 		position: new THREE.Vector3(0, -0.8, 3),
 		replace: true,
-		replaceURL: '/bubble3.jpg',
+		replaceURL: '../public/bubble3.jpg',
 		//animationState: true,
 		//mixers: mixers,
 	})
